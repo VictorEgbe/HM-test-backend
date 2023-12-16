@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-lk(x1*uk^057q(mri0(2kmdbi^6$fo3e0x9l0*h&!duge$wbqt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://techefreelance.pythonanywhere.com/']
+ALLOWED_HOSTS = ['TechEFreeLance.pythonanywhere.com']
 
 
 # Application definition
@@ -115,9 +115,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+MEDIA_ROOT = '/home/TechEFreeLance/server/media'
+MEDIA_URL = '/media/'
+STATIC_ROOT = '/home/TechEFreeLance/server/static'
+STATIC_URL = '/static/'
